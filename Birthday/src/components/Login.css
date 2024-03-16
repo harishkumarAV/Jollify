@@ -1,0 +1,88 @@
+.login-body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto; 
+  background-image: url('../assets/bw.jpg');
+}
+
+.containers {
+  display:flex;
+  align-items: center;
+  height: 100vh;
+  padding-right:100px;
+  justify-content: center; 
+  animation: fadeInAnimation 1s ease-in-out;
+}
+
+.login-form {
+  background-image: url('../assets/bg.jpg');
+  filter: grayscale();
+  background-color: #858585;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  animation: fadeInAnimation 1s ease-in-out;
+  
+}
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .login-form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    animation: fadeInAnimation 2s ease-in-out;
+    
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #848484;
+  }
+  
+  @media (max-width: 768px) {
+    .login-form {
+      max-width: 90%;
+    }
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  input.error {
+    border-color: #ff0000;
+  }
+  

@@ -1,0 +1,92 @@
+/* Reset default styles */
+* {
+    padding: 0;
+    
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  /* Define CSS variables for colors */
+
+
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: var(--mainColor);
+    color: var(--textColor);
+  }
+  
+  /* Navigation links */
+  nav a {
+    margin: 0 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: var(--secondaryColor);
+  }
+  
+  /* Responsive navigation button */
+  header .nav-btn {
+    padding: 5px;
+    
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 1024px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    body {
+      overflow-x: hidden;
+    }
+  
+    /* Make the navigation button visible */
+    header .nav-btn {
+      visibility: visible;
+      opacity: 1;
+    }
+  
+    /* Style the responsive navigation menu */
+    header nav {
+        
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100vw; /* Use 100vw instead of 100% to ensure full viewport width */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--mainColor);
+      transition: 1s;
+      transform: translateY(-100vh);
+    }
+  
+    /* Style the close button in the responsive menu */
+    nav .nav-close-btn {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+    }
+  
+    /* Adjust font size for navigation links in smaller screens */
+    nav a {
+      font-size: 1.5rem;
+    }
+  }
+  

@@ -1,0 +1,62 @@
+.contact {
+    padding: 20%;
+    background-image: url('../assets/girl.jpg'); 
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center; /* Centers the background image within the container */
+    text-align: center;
+    animation: fadeInAnimation 1s ease-in-out; 
+}
+
+.contact h3 {
+    margin-top: 0%;
+    color: aliceblue;
+    animation: fadeInAnimation 1s ease-in-out;
+}
+
+.contact form {
+    color: white;
+    margin-top: 2%;
+    margin-left: auto; /* Center the form horizontally */
+    margin-right: auto; /* Center the form horizontally */
+    max-width: 600px;
+    word-spacing: 3px;
+    animation: fadeInAnimation 1s ease-in-out; 
+}
+
+.contact label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact button {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

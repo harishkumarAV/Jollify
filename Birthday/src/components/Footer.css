@@ -1,0 +1,49 @@
+.footer {
+  background-color: #000000;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to next line if needed */
+  justify-content: space-between; /* Distribute items evenly across the container */
+  align-items: center;
+  max-width: 1450px; /* Limit container width for better responsiveness */
+  margin: 0 auto; /* Center align the container */
+}
+
+.footer-container img {
+  height: 80px; /* Reduce image height for better proportion */
+}
+
+.footer-container p {
+  flex-grow: 1; /* Allow paragraph to grow to fill remaining space */
+  margin: 0; /* Remove default margin */
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap; /* Allow links to wrap if they exceed container width */
+}
+
+.footer-links a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 10px; /* Add space between links */
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center; /* Center align items */
+  }
+
+  .footer-container img {
+    margin-bottom: 20px; /* Add space between logo and other items */
+  }
+
+  .footer-links {
+    margin-top: 20px; /* Add space between links and other items */
+  }
+}

@@ -1,0 +1,108 @@
+
+.signup-body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  
+.containerss {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  filter: grayscale();
+  animation: fadeInAnimation 2s ease-in-out;
+}
+
+.bg-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  background-image: url('../Assets/bgpic.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  z-index: -1;
+}
+
+.signup-form {
+  background-image: url('../assets/bg.jpg');
+  filter: grayscale();
+  background-color: #c8c8c8d2;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  animation: fadeInAnimation 2s ease-in-out;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.signup-form p {
+  margin: 10px 0;
+}
+
+.signup-form label {
+  margin-right: 10px;
+}
+
+.signup-form button {
+  animation: fadeInAnimation 4s ease-in-out;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #4b40e9;
+}
+
+@media (max-width: 768px) {
+  .signup-form {
+    max-width: 90%;
+  }
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+input.error {
+  border-color: #ff0000;
+}
