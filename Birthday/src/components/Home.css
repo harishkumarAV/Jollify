@@ -17,20 +17,22 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/bakebg.jpg');
-
+  background-image: url('../assets/girl.jpg');
   background-size: cover;
   background-position: center;
-  
+  filter: grayscale(0.7);
   background-attachment: fixed;
   animation: fadeInAnimation 2s ease-in-out;
 
 }
 
 .HomePage h1 {
-    color:rgb(27, 27, 27);
-  font-weight: 700;
-  font-size: 3rem;
+  color: transparent;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: clamp(2rem, 5vw, 3rem);
+  filter: grayscale(100);
+  animation: fade-in-out 12s linear infinite;
+
 }
 .para-container{
   color:#ffffff;

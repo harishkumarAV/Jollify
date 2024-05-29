@@ -114,11 +114,9 @@
       font-size: 1.6rem;
       margin: 0 0 .5rem 0
   }
-  /* Explore.css */
 
 
   
-  /* Add any additional styles you need for your component */
   
   .popular-articles {
       -webkit-box-sizing: content-box;
@@ -178,7 +176,7 @@
   }
   
   .popular-header .edit-popular {
-      position: absolute;
+      position: absolute;   
       top: 5px;
       right: 5px
   }

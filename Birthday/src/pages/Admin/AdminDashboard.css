@@ -1,0 +1,37 @@
+.admin-dashboard {
+  background-color: #ffffff; /* Dark background color */
+  color: #000000; /* Light text color */
+  padding: 20px; /* Adjust padding as needed */
+  margin-top: 0;
+  height: 100vh;
+}
+
+.counts {
+  margin-bottom: 20px; /* Add spacing between counts and employee details */
+}
+
+.employee-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-details th,
+.employee-details td {
+  padding: 10px;
+  border-bottom: 1px solid #444; /* Dark border color */
+}
+
+.employee-details th {
+  text-align: left;
+}
+
+
+
+.employee-details tbody tr:hover {
+  background-color: #444; /* Darker background color on hover */
+}
+.dashboard-admin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

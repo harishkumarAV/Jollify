@@ -1,33 +1,30 @@
 import React from 'react';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
+import ButtonAppBar from './NavBar';
 import Footer from './Footer';
 
 export default function Home() {
   const navigate = useNavigate();
-  
+
   const handleLearnMoreClick = (section) => {
-    if (!loggedIn) {
-      alert('Login to use this function');
-    } else {
-      // You can navigate to the respective section if the user is logged in.
-      // Example: navigate(`/ResumeMaker`) for the ResumeMaker section.
+
       if (section === 'Home') {
-        navigate('/Home');
+        navigate('/find');
       } else if (section === 'Home') {
         navigate('/Home');
       } else if (section === 'Explore') {
-        navigate('/Explore');
+        navigate('/find');
       }
-    }
+    
   };
-  
-  
-  
   return (
     <div>
+    <ButtonAppBar/>
+
       <section className='HomePage'>
       <div className="container">
+
       <h1>Jollify.</h1>
       <div className='para-container'>
       <p className='p-c'>
@@ -77,6 +74,8 @@ export default function Home() {
         </div>
         </section>
         </section>
+        <Footer/>
+
         </div>
   );
 }

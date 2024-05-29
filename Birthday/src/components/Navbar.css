@@ -1,4 +1,3 @@
-/* Reset default styles */
 * {
     padding: 0;
     
@@ -6,10 +5,7 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
-  /* Define CSS variables for colors */
-
-
-  /* Header styles */
+  
   header {
     display: flex;
     justify-content: space-between;
@@ -18,7 +14,6 @@
     color: var(--textColor);
   }
   
-  /* Navigation links */
   nav a {
     margin: 0 2rem;
     color: var(--textColor);
@@ -29,7 +24,6 @@
     color: var(--secondaryColor);
   }
   
-  /* Responsive navigation button */
   header .nav-btn {
     padding: 5px;
     
@@ -43,7 +37,6 @@
     font-size: 1.8rem;
   }
   
-  /* Media query for smaller screens */
   @media only screen and (max-width: 1024px) {
     body {
       margin: 0;
@@ -54,20 +47,18 @@
       overflow-x: hidden;
     }
   
-    /* Make the navigation button visible */
     header .nav-btn {
       visibility: visible;
       opacity: 1;
     }
   
-    /* Style the responsive navigation menu */
     header nav {
         
       position: fixed;
       top: 0;
       left: 0;
       height: 100%;
-      width: 100vw; /* Use 100vw instead of 100% to ensure full viewport width */
+      width: 100vw; 
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -77,16 +68,15 @@
       transform: translateY(-100vh);
     }
   
-    /* Style the close button in the responsive menu */
     nav .nav-close-btn {
       position: absolute;
       top: 2rem;
       right: 2rem;
     }
   
-    /* Adjust font size for navigation links in smaller screens */
     nav a {
       font-size: 1.5rem;
     }
   }
+ 
   

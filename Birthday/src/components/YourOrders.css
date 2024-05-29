@@ -1,0 +1,61 @@
+.orders-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 180px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    background-image: url('../assets/bg.jpg');
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  .orders-heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .orders-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .order-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .no-orders-message {
+    text-align: center;
+    color: #777;
+  }
+  .edit-button-1,
+.delete-button-1 {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button-2,
+.delete-button-2 {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Add more styles for other orders as needed */

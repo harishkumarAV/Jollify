@@ -1,0 +1,28 @@
+.confirm-container {
+    text-align: center;
+    margin-top: 350px;
+    color: white;
+    opacity: 0; 
+    animation: fadeIn 2s ease forwards;
+  }
+  
+  .confirm-heading {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .confirm-message {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; 
+    }
+    to {
+      opacity: 1; 
+    }
+  }
+  

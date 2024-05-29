@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AadApplication<aad>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.birthday.aad.AadApplication",
+            "projectName": "aad",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

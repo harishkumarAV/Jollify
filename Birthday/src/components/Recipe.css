@@ -1,0 +1,144 @@
+.hero {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 100px;
+    
+  }
+  
+  .hero-head {
+    color:#fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-left: 2%;
+  }
+  
+  .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .job {
+    
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #151515;
+    border-radius: 40px;
+    background-image: url('../assets/bg.jpg');
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center; /* Centers the background image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    transition: opacity 0.5s ease-in-out; /* Adding fade-in transition */
+
+}
+
+
+.job img {
+
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .job h3 {
+    color: #070707;
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .job p {
+    color: #cecece;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .job a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .job a:hover {
+    background-color:  rgb(0, 0, 0);
+  }
+  
+  .st {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+  .hero-head {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-left: 2%;
+  }
+  
+
+  
+  .job img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .job h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .job p {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  
+  }
+  
+  .job a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  rgb(0, 0, 0);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  
+  }
+  
+  .job a:hover {
+    background-color:  rgb(76, 38, 38);
+  }
+  .search-container input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    background-color: rgb(76, 38, 38);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-container button:hover {
+    background-color:  rgb(0, 0, 0);
+  }
+  
+  
+  
+  
+  
+  

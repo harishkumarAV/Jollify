@@ -1,8 +1,8 @@
 .contact {
-    padding: 20%;
+    padding: 15%;
     background-image: url('../assets/girl.jpg'); 
-    background-size: cover; /* Ensures the background image covers the entire container */
-    background-position: center; /* Centers the background image within the container */
+    background-size: cover;
+    background-position: center; 
     text-align: center;
     animation: fadeInAnimation 1s ease-in-out; 
 }
@@ -15,9 +15,8 @@
 
 .contact form {
     color: white;
-    margin-top: 2%;
-    margin-left: auto; /* Center the form horizontally */
-    margin-right: auto; /* Center the form horizontally */
+    margin-left: auto; 
+    margin-right: auto; 
     max-width: 600px;
     word-spacing: 3px;
     animation: fadeInAnimation 1s ease-in-out; 

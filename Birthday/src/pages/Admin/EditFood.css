@@ -1,0 +1,13 @@
+.admin-edit-food {
+  padding: 20px;
+  background-color: white;
+  height: 100vh;
+}
+
+.admin-edit-food .MuiTable-root {
+  margin-top: 20px;
+}
+
+.admin-edit-food .action-buttons button {
+  margin-right: 5px;
+}

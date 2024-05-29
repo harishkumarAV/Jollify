@@ -1,5 +1,5 @@
 import React from 'react';
-import './PrivacyPolicy.css'; // Import your CSS file
+import './PrivacyPolicy.css'; 
 
 const PrivacyPolicy = () => {
   return (
@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
           <a href="mailto:privacy@jollify.com">privacy@jollify.com</a>.
         </p>
         <p>
-          Address: 123 Main Street, Cityville, State, ZIP Code | Phone: 123-456-7890
+          Address: JollifyBirthdays, Kamarajar salai , Kovaipudur, Coimbatore, 600000 | Phone: +91 9489948948
         </p>
       </div>
     </div>

@@ -1,0 +1,13 @@
+.admin-edit-addons {
+  padding: 20px;
+  background-color: white;
+  height: 100vh;
+}
+
+.admin-edit-addons .MuiTable-root {
+  margin-top: 20px;
+}
+
+.admin-edit-addons .action-buttons button {
+  margin-right: 5px;
+}

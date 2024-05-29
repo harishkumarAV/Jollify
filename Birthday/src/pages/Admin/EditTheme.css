@@ -1,0 +1,40 @@
+.admin-edit-theme {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.admin-head {
+  margin-bottom: 20px;
+}
+
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Styles for action buttons */
+button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}

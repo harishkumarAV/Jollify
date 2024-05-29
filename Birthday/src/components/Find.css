@@ -1,0 +1,27 @@
+.find-para{
+    color:aliceblue;
+    
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.info-para{
+    color:white;
+    padding-top: 4rem;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.fade-in {
+    opacity: 0; 
+    transition: opacity 2s ease-in-out; 
+  }
+  
+  .fade-in.visible {
+    opacity: 1; 
+  }
+  

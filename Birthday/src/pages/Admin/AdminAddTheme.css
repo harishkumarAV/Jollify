@@ -1,0 +1,10 @@
+.admin-add-theme{
+  color: rgb(0, 0, 0);
+  height:100vh;
+  background-color: white;
+}
+.admin-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

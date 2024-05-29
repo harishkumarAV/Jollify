@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import Footer from './Footer';
+import ButtonAppBar from './NavBar';
 
 function Contact() {
   const [email, setEmail] = useState('');
@@ -27,6 +28,8 @@ function Contact() {
 
   return (
     <div>
+    <ButtonAppBar/>
+
     <section className="contact">
     <h3>Give us a shout.</h3>
     <form onSubmit={handleSubmit}>
@@ -49,7 +52,6 @@ function Contact() {
         </div>
         );
   <div>
-
   </div>
 }
 

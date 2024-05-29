@@ -1,0 +1,11 @@
+/* styles.css */
+.image-container {
+    text-align: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    max-height: 100vh; /* Limits the height of the image to the viewport height */
+  }
+  
